@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+body{
+    margin: 0;
+
+}
+.header{
+    /*font-family: "Imperial Script", cursive;*/
+    /*font-size: 50px;*/
+    /*color: darkseagreen;*/
+    text-align: center;
+    height: 400px;
+    background-image: url("../img/photo_2026-06-29_20-52-57.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid transparent;
+}
+h1{
+    font-family: "Imperial Script", cursive;
+    font-size: 100px;
+    color: darkseagreen;
+    margin: auto;
+}
+.main {
+    border: 1px solid transparent;
+    font-family: "Neuton Script", cursive;
+}
+ul{
+    margin: auto;
+}
+h2{
+    margin: auto;
+}
+p{
+    margin: auto;
+}
