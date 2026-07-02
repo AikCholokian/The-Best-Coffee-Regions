@@ -3,14 +3,11 @@
 
 body {
     margin: 0;
-
+    background-color: whitesmoke;
 }
 
 .header {
     font-family: "Imperial Script", cursive;
-    font-size: 50px;
-    color: darkseagreen;
-    text-align: center;
     height: 400px;
     background-image: url("../img/photo_2026-06-29_20-52-57.jpg");
     background-repeat: no-repeat;
@@ -20,10 +17,10 @@ body {
 }
 
 h1 {
-    font-family: "Imperial Script", cursive;
     font-size: 100px;
     color: darkseagreen;
     margin: auto;
+    text-align: center;
 }
 
 .main {
