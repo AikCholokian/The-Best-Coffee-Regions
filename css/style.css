@@ -29,44 +29,50 @@ h1 {
 .main {
     border: 1px solid transparent;
     font-family: "Neuton", cursive;
+    position: relative;
+    background-image: url("../img/img_1.png");
+    width: 100%;
+    height: 600px;
+    text-align: center;
 }
-/*.main > table{*/
-/*    padding: 0;*/
-/*    background-image: url("../img/img_1.png");*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-
-
-/*}*/
-/*.main td{*/
-/*    color: black;*/
-/*    font-weight: 500;*/
-/*    padding: 0 10px;*/
-/*    text-align: justify;*/
-/*    text-indent: 32px;*/
-/*    line-height: 1.5;*/
-/*}*/
-
-/*.main td > h2{*/
-/*    font-size: 40px;*/
-/*    font-weight: 700;*/
-/*    padding-bottom: 10px;*/
-/*    border: black solid 1px;*/
-/*    border-radius: 10px;*/
-/*    background-color: #b39f7a;*/
-/*    text-align: center;*/
-/*    text-transform: uppercase;*/
-/*}*/
-/*.main td > p{*/
-/*    font-weight: 900;*/
-/*}*/
-
-/*.main td > a{*/
-/*    border: black solid 1px;*/
-/*    border-radius: 5px;*/
-/*    background-color: bisque;*/
-/*    text-align: center;*/
-/*    margin: 0 250px;*/
-/*    font-weight: 600;*/
-/*    text-decoration: none;*/
-/*}*/
+.left{
+    position: absolute;
+    width: 48%;
+    padding: 8px;
+}
+.right {
+    position: absolute;
+    width: 48%;
+    left: 50%;
+    padding: 8px;
+}
+.main h2{
+        font-weight: 700;
+        padding-bottom: 10px;
+        border: black solid 1px;
+        border-radius: 10px;
+        background-color: #b39f7a;
+        text-align: center;
+        text-transform: uppercase;
+}
+.main p{
+    font-weight: 700;
+    text-align: left;
+}
+.main a{
+    border: black solid 1px;
+        border-radius: 5px;
+        background-color: bisque;
+        margin: auto;
+        font-weight: 600;
+        text-decoration: none;
+}
+.main div > div{
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+.flag{
+    width: 24px;
+    height: auto;
+}
