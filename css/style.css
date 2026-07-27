@@ -21,14 +21,11 @@ body {
 h1 {
     font-size: 100px;
     color: darkseagreen;
-    margin: auto;
-    text-align: center;
-    padding-top: 130px;
+
 }
 
 .main {
     border: 1px solid transparent;
-    font-family: "Neuton", cursive;
     position: relative;
     background-image: url("../img/img_1.png");
     width: 100%;
@@ -52,12 +49,15 @@ h1 {
         border: black solid 1px;
         border-radius: 10px;
         background-color: #b39f7a;
-        text-align: center;
-        text-transform: uppercase;
+        font-family: "Neuton", cursive;
 }
 .main p{
     font-weight: 700;
-    text-align: left;
+    font-family: "Neuton", cursive;
+    font-size: 1.25em;
+    text-indent: 32px;
+    text-align: justify;
+    line-height: 1.5;
 }
 .main a{
     border: black solid 1px;
